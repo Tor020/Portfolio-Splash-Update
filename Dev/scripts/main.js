@@ -34,7 +34,7 @@ function cardflip() {
     var makeScroller = function(container, defaultDuration, edgeOffset) {
         defaultDuration = defaultDuration || 664
         if (!edgeOffset && edgeOffset !== 0) {
-            edgeOffset = 45.5
+            edgeOffset = 0
         }
         var scrollTimeoutId
         var setScrollTimeoutId = function(newValue) {
